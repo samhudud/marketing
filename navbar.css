@@ -1,0 +1,25 @@
+.overnav{
+    background-color:#330072;
+    color:white;
+    padding:5px 0px;
+    font-size:13px;
+    font-weight: bold;
+    
+}
+.overul{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap:20px;
+    list-style: none;
+}
+
+
+@media(max-width:1000px){
+    .overnav{
+        overflow-x:scroll;
+    }
+    .overul{
+        gap:50px;
+    }
+}
